@@ -1,0 +1,17 @@
+first_number = float(input("First number: "))
+operator = input("Operator (+, -, *, /): ")
+second_number = float(input("Second number: "))
+
+if operator == "+":
+    result = first_number + second_number
+elif operator == "-":
+    result = first_number - second_number
+elif operator == "*":
+    result = first_number * second_number
+elif operator == "/":
+    result = first_number / second_number
+else:
+    print("Invalid operator!")
+    exit()
+
+print("Result =", result)
